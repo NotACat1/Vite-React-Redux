@@ -32,8 +32,13 @@ dist/
 .vitest/
 .vscode/
 coverage/
-.env*
+.env
 *.tsbuildinfo
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
 
 # ESLint / Prettier / Stylelint
 .eslintcache

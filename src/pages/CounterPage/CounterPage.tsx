@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from '@store/index';
+import { RootState } from '@store/store';
 import { increment, decrement, setValue } from '@store/slices/counterSlice';
 import styles from './CounterPage.module.scss';
 

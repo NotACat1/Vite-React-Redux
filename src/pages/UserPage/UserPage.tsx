@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchUser, logout } from '@store/slices/userSlice';
-import { RootState, AppDispatch } from '@store/index';
+import { RootState, AppDispatch } from '@store/store';
 import styles from './UserPage.module.scss';
 
 const UserPage = () => {
