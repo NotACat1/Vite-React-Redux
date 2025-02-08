@@ -5,3 +5,5 @@ coverage/
 .vitest/
 vite.config.ts
 .eslintrc.js
+commitlint.config.js
+vite.config.ts
