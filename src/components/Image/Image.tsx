@@ -3,7 +3,7 @@ import styles from './Image.module.scss';
 
 const Image = () => {
   return (
-    <div className={styles.сontainer}>
+    <div className={styles.container}>
       <h2>Image</h2>
       <img src={myImage} alt="Example" />
     </div>
