@@ -35,6 +35,11 @@ coverage/
 .env
 *.tsbuildinfo
 
+# Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
 # ESLint / Prettier / Stylelint
 .eslintcache
 .prettiercache
