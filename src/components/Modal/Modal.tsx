@@ -36,7 +36,7 @@ const Modal = ({ isOpen, onClose, title, children }: ModalProps) => {
       overlayClassName={styles.overlay}
       ariaHideApp={false}
     >
-      <div className={styles.сontent}>
+      <div className={styles.content}>
         {title && <h2 className={styles.title}>{title}</h2>}
         <button className={styles.button} onClick={onClose}>
           &times;
