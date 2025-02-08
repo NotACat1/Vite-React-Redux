@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createHashRouter, RouterProvider } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from '@store/index';
 import Layout from '@components/Layout/Layout';
@@ -9,7 +9,7 @@ import CounterPage from '@pages/CounterPage/CounterPage';
 import UserPage from '@pages/UserPage/UserPage';
 import NotFound from '@pages/NotFound/NotFound';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: '/',
     element: <Layout />,
