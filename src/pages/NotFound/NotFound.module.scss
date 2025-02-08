@@ -1,0 +1,21 @@
+.container {
+  align-items: center;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    color: #d9534f;
+    font-size: 6rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+}
